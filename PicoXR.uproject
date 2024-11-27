@@ -5,31 +5,17 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "OpenXR",
-			"Enabled": true,
+			"Name": "Fab",
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Linux",
-				"Android"
+				"Mac",
+				"Linux"
 			]
 		},
 		{
-			"Name": "OpenXREyeTracker",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android"
-			]
-		},
-		{
-			"Name": "OpenXRHandTracking",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android"
-			]
+			"Name": "PicoSpatialAudio",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
